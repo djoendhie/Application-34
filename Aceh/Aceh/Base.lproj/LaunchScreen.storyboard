@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baskerville.ttc">
+            <string>Baskerville-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="Ijc-Fv-AOc">
+                                <rect key="frame" x="-0.5" y="96" width="375" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="KeT-iu-Ril"/>
+                                    <constraint firstAttribute="width" constant="375" id="Nr6-qi-k30"/>
+                                    <constraint firstAttribute="height" constant="220" id="Xpj-cl-3qw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="lcD-Dw-1El">
+                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="ANa-jf-WbY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Khas Aceh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmq-Ny-G1W">
+                                <rect key="frame" x="49.5" y="317" width="276" height="25"/>
+                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9916905761" green="0.77991443869999999" blue="0.4689428806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="3N1-IP-Pyi"/>
+                            <constraint firstItem="Wmq-Ny-G1W" firstAttribute="centerX" secondItem="Ijc-Fv-AOc" secondAttribute="centerX" id="90L-zT-wJB"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="AfL-Af-TEk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lcD-Dw-1El" secondAttribute="bottom" constant="97" id="GNv-oF-3rE"/>
+                            <constraint firstItem="Wmq-Ny-G1W" firstAttribute="centerX" secondItem="lcD-Dw-1El" secondAttribute="centerX" id="JAo-j1-HHN"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="KEe-Pg-v7m"/>
+                            <constraint firstItem="Wmq-Ny-G1W" firstAttribute="top" secondItem="Ijc-Fv-AOc" secondAttribute="bottom" constant="1" id="M4x-RZ-QqK"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="QDF-Mu-tfp"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="ZsQ-rj-b0F"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="cSS-VK-pyd"/>
+                            <constraint firstItem="lcD-Dw-1El" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="k3W-eL-OIj"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="mTu-rQ-Cbg"/>
+                            <constraint firstItem="lcD-Dw-1El" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ofZ-pe-Nnn"/>
+                            <constraint firstItem="Ijc-Fv-AOc" firstAttribute="width" secondItem="Ijc-Fv-AOc" secondAttribute="height" multiplier="75:44" id="xQp-tO-VPu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images" width="341" height="148"/>
+        <image name="images-1" width="225" height="225"/>
+    </resources>
+</document>
